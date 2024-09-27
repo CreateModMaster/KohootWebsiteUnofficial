@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+body{
+  background-color:#dedee2;
+  color: darkgoldenrod;
+  font-family: Edu SA Beginner;
+}
+button {
+  background-color: #7300ff;
+  /* green */
+  border: #e08506;
+  border-style: ridge;
+  color: #04ff00;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 16px;
+}
+.topnav {
+  background-color: #272528;
+  overflow: hidden;
+}
+.topnav a{
+  color:goldenrod;
+  float:left;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+.topnav a:hover{
+  background-color:#dedee2;
+  color:#272528;
+}
+.topnav.icon{
+  display:none;
+}
