@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+html{
+  font-family: Edu SA Beginner;
+  background-color: #dedee2;
+  color: darkgoldenrod;
+  border-style:double;
+  border-width:15px;
+  font-size:20px;
+}
+.topnav {
+  background-color: #272528;
+  overflow: hidden;
+}
+.topnav a{
+  color:goldenrod;
+  float:left;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+.topnav a:hover{
+  background-color:#dedee2;
+  color:#272528;
+}
+.topnav.icon{
+  display:none;
+}
